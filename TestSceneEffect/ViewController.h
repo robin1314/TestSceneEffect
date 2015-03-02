@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "testConstant.h"
 
+#import "AVBasicRouteAnimate.h"
+
+#define AD_Z_DISTANCE 1000.0f
+
+@interface ViewController : UIViewController
+{
+    CALayer *homeLayer;
+    
+}
+
+@property (nonatomic, strong) CAShapeLayer *shapeLayer;
 
 @end
 
